@@ -1,0 +1,19 @@
+
+.team {
+    border: 1px solid lightgray;  
+}
+.team img{
+    width: 150px;
+    transition: .4s;
+}
+.team.p-3.m-2.text-center {
+    box-shadow: 2px 3px 4px 1px lightgrey;
+    transition: .4s;
+}
+.team.p-3.m-2.text-center:hover {
+    box-shadow: 2px 3px 4px 1px #8c8c8c;
+}
+.team img:hover {
+    transform: scale(1.1);
+}
+
